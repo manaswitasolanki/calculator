@@ -53,3 +53,64 @@ function operate(oper,num1,num2)
     }
 }
 
+// fucntion to type in display
+
+function type(){
+
+    let dis= document.querySelector('.display');
+    dis.innerText='';
+
+document.querySelector('.one').addEventListener('click', ()=>{
+    let num1=dis.textComtent+'1';
+    dis.innerText=dis.textContent+'1';
+})
+
+document.querySelector('.two').addEventListener('click', ()=>{
+    let num1=dis.textContent+'2';
+    dis.innerText=dis.textContent+'2';
+})
+
+document.querySelector('.three').addEventListener('click', ()=>{
+    let num1=dis.textComtent+'3';
+    dis.innerText=dis.textContent+'3';
+})
+document.querySelector('.four').addEventListener('click', ()=>{
+    let num1=dis.textComtent+'4';
+    dis.innerText=dis.textContent+'4';
+})
+
+document.querySelector('.five').addEventListener('click', ()=>{
+    let num1=dis.textContent+'5';
+    dis.innerText=dis.textContent+'5';
+})
+
+document.querySelector('.six').addEventListener('click', ()=>{
+    let num1=dis.textContent+'6';
+    dis.innerText=dis.textContent+'6';
+})
+
+document.querySelector('.seven').addEventListener('click', ()=>{
+    let num1=dis.textContent+'7';
+    dis.innerText=dis.textContent+'7';
+})
+
+document.querySelector('.eight').addEventListener('click', ()=>{
+    let num1=dis.textContent+'8';
+    dis.innerText=dis.textContent+'8';
+})
+
+document.querySelector('.nine').addEventListener('click', ()=>{
+    let num1=dis.textContent+'9';
+    dis.innerText=dis.textContent+'9';
+})
+
+document.querySelector('.zero').addEventListener('click', ()=>{
+    let num1=dis.textContent+'0';
+    dis.innerText=dis.textContent+'0';
+})
+
+
+
+}
+
+type();
