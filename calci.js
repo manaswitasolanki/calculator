@@ -53,4 +53,3 @@ function operate(oper,num1,num2)
     }
 }
 
-console.log(operate('-',3,2));
